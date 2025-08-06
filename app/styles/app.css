@@ -1,1 +1,10 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+
+#wormhole-target {
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+  position: fixed;
+  right:0;
+  bottom:0;
+}
