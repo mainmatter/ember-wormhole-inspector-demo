@@ -1,7 +1,16 @@
 {{page-title "EmberWormholeInspectorDemo"}}
 <div id="wormhole-target"></div>
 
-<LinkTo @route="ember-wormhole">View ember-wormhole demo</LinkTo>
-<LinkTo @route="in-element">View in-element demo</LinkTo>
+<nav>
+  <li>
+    <LinkTo @route="ember-wormhole">View ember-wormhole demo</LinkTo>
+  </li>
+  <li>
+    <LinkTo @route="in-element">View in-element demo</LinkTo>
+  </li>
+  <li>
+    <LinkTo @route="private-old-in-element">View -in-element demo</LinkTo>
+  </li>
+</nav>
 
 {{outlet}}
